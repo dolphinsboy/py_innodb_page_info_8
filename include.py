@@ -36,7 +36,39 @@ PAGE_LEVEL = 26  # level of the node in an index tree; the leaf level is the lev
 #     '45bd': u'Tablespace SDI Index page'
 # }
 
-innodb_page_type = {'0000': 'Freshly allocated', '0002': 'Undo log', '0003': 'File segment inode', '0004': 'Insert buffer free list', '0005': 'Insert buffer bitmap', '0006': 'System internal', '0007': 'Transaction system header', '0008': 'File space header', '0009': 'Extent descriptor', '000a': 'Uncompressed BLOB', '000b': 'First compressed BLOB', '000c': 'Subsequent compressed BLOB', '000d': 'Unknown', '000e': 'Compressed', '000f': 'Encrypted', '0010': 'Compressed and Encrypted', '0011': 'Encrypted R-tree', '0012': 'Uncompressed SDI BLOB', '0013': 'Compressed SDI BLOB', '0014': 'Legacy doublewrite buffer', '0015': 'Rollback Segment Array', '0016': 'Index of uncompressed LOB', '0017': 'Data of uncompressed LOB', '0018': 'First page of an uncompressed LOB', '0019': 'First page of a compressed LOB', '001a': 'Data of compressed LOB', '001b': 'Index of compressed LOB', '001c': 'Fragment of compressed LOB', '001d': 'Index of fragment for compressed LOB', '45bd': 'Serialized Dictionary Information', '45be': 'R-tree index', '45bf': 'B+Tree index'}
+innodb_page_type = {
+    '0000': 'Freshly allocated',
+    '0002': 'Undo log', 
+    '0003': 'File segment inode', 
+    '0004': 'Insert buffer free list', 
+    '0005': 'Insert buffer bitmap', 
+    '0006': 'System internal', 
+    '0007': 'Transaction system header', 
+    '0008': 'File space header', 
+    '0009': 'Extent descriptor', 
+    '000a': 'Uncompressed BLOB', 
+    '000b': 'First compressed BLOB', 
+    '000c': 'Subsequent compressed BLOB', 
+    '000d': 'Unknown', 
+    '000e': 'Compressed', 
+    '000f': 'Encrypted', 
+    '0010': 'Compressed and Encrypted', 
+    '0011': 'Encrypted R-tree', 
+    '0012': 'Uncompressed SDI BLOB', 
+    '0013': 'Compressed SDI BLOB', 
+    '0014': 'Legacy doublewrite buffer', 
+    '0015': 'Rollback Segment Array', 
+    '0016': 'Index of uncompressed LOB', 
+    '0017': 'Data of uncompressed LOB', 
+    '0018': 'First page of an uncompressed LOB', 
+    '0019': 'First page of a compressed LOB', 
+    '001a': 'Data of compressed LOB', 
+    '001b': 'Index of compressed LOB', 
+    '001c': 'Fragment of compressed LOB', 
+    '001d': 'Index of fragment for compressed LOB', 
+    '45bd': 'Serialized Dictionary Information', 
+    '45be': 'R-tree index', 
+    '45bf': 'B+Tree index'}
 
 innodb_page_direction = {
     '0000': 'Unknown(0x0000)',
